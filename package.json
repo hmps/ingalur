@@ -1,0 +1,37 @@
+{
+  "name": "myangular",
+  "version": "1.0.0",
+  "description": "My own implementation, or rather copy, of AngularJS. For learning purposes only.",
+  "main": "src/angular.js",
+  "scripts": {
+    "test": "karma start test/karma-unit-conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hmps/angular.git"
+  },
+  "keywords": [
+    "angular",
+    "javascript"
+  ],
+  "author": "Hampus Persson, @hmps_",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hmps/angular/issues"
+  },
+  "homepage": "https://github.com/hmps/angular",
+  "dependencies": {
+    "jquery": "^2.1.1",
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-jasmine": "^1.0.1",
+    "gulp-jshint": "^1.8.5",
+    "jshint-stylish": "^1.0.0",
+    "karma": "^0.12.24",
+    "karma-growl": "^0.1.0",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
+}
